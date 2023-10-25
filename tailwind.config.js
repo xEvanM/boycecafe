@@ -11,7 +11,7 @@ module.exports = {
         '100': '25rem',
       },
       backgroundImage: {
-        'cafe': "url('../src/assets/images/twowaybg.jpg')",
+        'cafe': "url('../src/assets/images/twowaybg.png')",
         'coffee': "url('../src/assets/images/coffeecup.jpg')",
         'sandwich': "url('../src/assets/images/sandwich.jpg')",
         'giftcard': "url('../src/assets/images/giftcard.jpeg')",

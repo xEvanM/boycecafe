@@ -12,14 +12,13 @@
   
       <!-- Middle column: Copyright -->
       <div class="hidden lg:block lg:mt-4">
-        <h1 class="font-bold">&copy; TwoWay Cafe, 2023</h1>
-        <p>Website by: Evan Murphy</p>
+        <h1 class="font-bold">&copy; Boyce & Co Cafe, 2023</h1>
       </div>
   
       <!-- Right column: Location -->
       <div class="mt-4">
         <h1 class="font-bold">Location</h1>
-        <p>123 Church Street, Carrick on Shannon, Co. Leitrim</p>
+        <p>Main Street, Mohill, Co. Leitrim</p>
       </div>
   
     </div>

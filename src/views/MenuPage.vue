@@ -13,7 +13,7 @@ import Footer from "../components/Footer.vue"
         <div class="flex mb-8 px-4">
           <div class="w-1/2 pr-4 bg-white p-4">
             <div class="flex justify-center items-center bg-black text-white py-2 mb-2">
-              <h2 class="text-xl font-semibold font-mono">To Eat</h2>
+              <h2 class="text-xl font-semibold font-mono">Light Bites</h2>
             </div>
             <ul>
               <li class="flex justify-between items-center py-2 border-b">
@@ -43,7 +43,7 @@ import Footer from "../components/Footer.vue"
   
           <div class="w-1/2 pl-4 ml-16 bg-white p-4">
             <div class="flex justify-center items-center bg-black text-white py-2 mb-2">
-              <h2 class="text-xl font-semibold font-mono">To Drink</h2>
+              <h2 class="text-xl font-semibold font-mono">Beverages</h2>
             </div>
             <ul>
               <li class="flex justify-between items-center py-2 border-b">
