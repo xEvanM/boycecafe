@@ -1,7 +1,7 @@
 <template>
   <nav class="sticky top-0 flex flex-col items-center justify-between lg:flex-row bg-slate-950 lg:p-8 p-4">
     <div class="flex items-center flex-shrink-0 text-white">
-      <span class="font-bold text-xl lg:ml-50 lg:pl-5 self-center">Boyce & Co Cafe</span>
+      <img class="lg:ml-50 lg:pl-5 self-center lg:h-20" src="../assets/images/boyce_and_co_white_horizontal_expanded.png">
     </div>
 
     <div class="hidden w-full lg:block lg:w-auto lg:pr-10">
