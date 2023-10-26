@@ -1,78 +1,142 @@
-
 <script setup>
 import Navbar from "../components/Navbar.vue"
 import Footer from "../components/Footer.vue"
- 
 </script>
 
 <template>
-    <div>
-      <Navbar></Navbar>
-  
-      <div class="bg-azure p-16">
-        <div class="flex mb-8 px-4">
-          <div class="w-1/2 pr-4 bg-white p-4">
-            <div class="flex justify-center items-center bg-black text-white py-2 mb-2">
-              <h2 class="text-xl font-semibold font-mono">Light Bites</h2>
+  <div>
+    <Navbar></Navbar>
+
+    <div class="bg-stone-300 p-4 sm:p-8 ">
+      <div class="mb-8">
+        <!-- Food Section -->
+        <div class="bg-stone-200 rounded-lg pt-6 mb-4">
+          <h2 class="text-3xl font-extrabold justify-center text-center text-slate-950 mb-6">EAT</h2>
+          <div class="flex flex-col sm:flex-row">
+            <!-- Light Bites Section -->
+            <div class="w-full sm:w-1/2 pr-0 sm:pr-4 mb-4 sm:mb-0 px-10">
+              <div class="bg-white rounded-lg p-4 border-black-2px">
+                <h3 class="text-lg font-bold text-slate-950 mb-4">Light Bites</h3>
+                <ul>
+                  <li class="mb-4">
+                    <div class="flex justify-between items-center">
+                      <div>
+                        <span class="font-semibold font-mono text-gray-600">Salad</span>
+                        <p class="text-sm text-gray-500 font-mono">Fresh and healthy salad.</p>
+                      </div>
+                      <span class="text-gray-600 font-mono">$6</span>
+                    </div>
+                  </li>
+                  <li class="mb-4">
+                    <div class="flex justify-between items-center">
+                      <div>
+                        <span class="font-semibold font-mono text-gray-600">Salad</span>
+                        <p class="text-sm text-gray-500 font-mono">Fresh and healthy salad.</p>
+                      </div>
+                      <span class="text-gray-600 font-mono">$6</span>
+                    </div>
+                  </li>
+                  <!-- Add more light bite items here -->
+                </ul>
+              </div>
             </div>
-            <ul>
-              <li class="flex justify-between items-center py-2 border-b">
-                <div>
-                  <span class="font-bold font-mono">Burger</span>
-                  <p class="text-sm text-gray-600 font-mono">Delicious beef burger with all the fixings.</p>
-                </div>
-                <span class="text-gray-600 font-mono">$10</span>
-              </li>
-              <li class="flex justify-between items-center py-2 border-b">
-                <div>
-                  <span class="font-bold font-mono">Sandwich</span>
-                  <p class="text-sm text-gray-600 font-mono">Classic sandwich with your choice of fillings.</p>
-                </div>
-                <span class="text-gray-600 font-mono">$8</span>
-              </li>
-              <li class="flex justify-between items-center py-2 border-b">
-                <div>
-                  <span class="font-bold font-mono">Donut</span>
-                  <p class="text-sm text-gray-600 font-mono">Sweet and fluffy donut.</p>
-                </div>
-                <span class="text-gray-600 font-mono">$3</span>
-              </li>
-              <!-- Add more food items here -->
-            </ul>
-          </div>
-  
-          <div class="w-1/2 pl-4 ml-16 bg-white p-4">
-            <div class="flex justify-center items-center bg-black text-white py-2 mb-2">
-              <h2 class="text-xl font-semibold font-mono">Beverages</h2>
+
+            <!-- Sides Section -->
+            <div class="w-full sm:w-1/2 pl-0 sm:pl-4 px-10 pb-12">
+              <div class="bg-white rounded-lg p-4">
+                <h3 class="text-lg font-bold text-slate-950 mb-4">Sides</h3>
+                <ul>
+                  <li class="mb-4">
+                    <div class="flex justify-between items-center">
+                      <div>
+                        <span class="font-semibold font-mono text-gray-600">Fries</span>
+                        <p class="text-sm text-gray-500 font-mono">Crispy and golden fries.</p>
+                      </div>
+                      <span class="text-gray-600 font-mono">$4</span>
+                    </div>
+                  </li>
+                  <li class="mb-4">
+                    <div class="flex justify-between items-center">
+                      <div>
+                        <span class="font-semibold font-mono text-gray-600">Fries</span>
+                        <p class="text-sm text-gray-500 font-mono">Crispy and golden fries.</p>
+                      </div>
+                      <span class="text-gray-600 font-mono">$4</span>
+                    </div>
+                  </li>
+                  <!-- Add more side items here -->
+                </ul>
+              </div>
             </div>
-            <ul>
-              <li class="flex justify-between items-center py-2 border-b">
-                <div>
-                  <span class="font-bold font-mono">Soda</span>
-                  <p class="text-sm text-gray-600 font-mono">Refreshing carbonated beverage.</p>
-                </div>
-                <span class="text-gray-600 font-mono">$2</span>
-              </li>
-              <li class="flex justify-between items-center py-2 border-b">
-                <div>
-                  <span class="font-bold font-mono">Hot Chocolate</span>
-                  <p class="text-sm text-gray-600 font-mono">Warm and comforting hot chocolate.</p>
-                </div>
-                <span class="text-gray-600 font-mono">$4</span>
-              </li>
-              <li class="flex justify-between items-center py-2 border-b">
-                <div>
-                  <span class="font-bold font-mono">Latte</span>
-                  <p class="text-sm text-gray-600 font-mono">Smooth and creamy latte.</p>
-                </div>
-                <span class="text-gray-600 font-mono">$5</span>
-              </li>
-              <!-- Add more drink items here -->
-            </ul>
           </div>
         </div>
       </div>
-    </div>
-  
-    <Footer></Footer>
-  </template>
+
+
+      <!-- Food Section -->
+      <div class="bg-stone-200 rounded-lg pt-6 mb-4">
+          <h2 class="text-3xl font-extrabold justify-center text-center text-slate-950 mb-6">DRINK</h2>
+          <div class="flex flex-col sm:flex-row">
+            <!-- Light Bites Section -->
+            <div class="w-full sm:w-1/2 pr-0 sm:pr-4 mb-4 sm:mb-0 px-10">
+              <div class="bg-white rounded-lg p-4 border-black-2px">
+                <h3 class="text-lg font-bold text-slate-950 mb-4">Hot Drinks</h3>
+                <ul>
+                  <li class="mb-4">
+                    <div class="flex justify-between items-center">
+                      <div>
+                        <span class="font-semibold font-mono text-gray-600">Salad</span>
+                        <p class="text-sm text-gray-500 font-mono">Fresh and healthy salad.</p>
+                      </div>
+                      <span class="text-gray-600 font-mono">$6</span>
+                    </div>
+                  </li>
+                  <li class="mb-4">
+                    <div class="flex justify-between items-center">
+                      <div>
+                        <span class="font-semibold font-mono text-gray-600">Salad</span>
+                        <p class="text-sm text-gray-500 font-mono">Fresh and healthy salad.</p>
+                      </div>
+                      <span class="text-gray-600 font-mono">$6</span>
+                    </div>
+                  </li>
+                  <!-- Add more light bite items here -->
+                </ul>
+              </div>
+            </div>
+
+            <!-- Sides Section -->
+            <div class="w-full sm:w-1/2 pl-0 sm:pl-4 px-10 pb-12">
+              <div class="bg-white rounded-lg p-4">
+                <h3 class="text-lg font-bold text-slate-950 mb-4">Cold Drinks</h3>
+                <ul>
+                  <li class="mb-4">
+                    <div class="flex justify-between items-center">
+                      <div>
+                        <span class="font-semibold font-mono text-gray-600">Fries</span>
+                        <p class="text-sm text-gray-500 font-mono">Crispy and golden fries.</p>
+                      </div>
+                      <span class="text-gray-600 font-mono">$4</span>
+                    </div>
+                  </li>
+                  <li class="mb-4">
+                    <div class="flex justify-between items-center">
+                      <div>
+                        <span class="font-semibold font-mono text-gray-600">Fries</span>
+                        <p class="text-sm text-gray-500 font-mono">Crispy and golden fries.</p>
+                      </div>
+                      <span class="text-gray-600 font-mono">$4</span>
+                    </div>
+                  </li>
+                  <!-- Add more side items here -->
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      </div>
+
+  <Footer></Footer>
+</template>
