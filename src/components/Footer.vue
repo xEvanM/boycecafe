@@ -1,6 +1,4 @@
-<template>
-    <!-- <div name="footerDivider" class="bg-stone-300 text-black w-full h-full pt-10 lg:pt-20"></div> -->
-  
+<template>  
     <div name="footerContainer" class="bg-slate-950 text-white w-full h-full p-12 lg:px-80 lg:flex flex-col lg:flex-row lg:justify-between lg:items-center">
   
       <!-- Left column: Opening Hours -->

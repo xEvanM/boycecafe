@@ -35,6 +35,8 @@ import Footer from "../components/Footer.vue"
     in learning more about our story?">
   </SectionRight>
 
+  <div name="footerContainer" class="bg-slate-950 text-white w-full h-full"> </div>
+
   <Footer>
   </Footer>
 
